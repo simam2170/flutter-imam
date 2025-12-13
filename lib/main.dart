@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'login_page.dart'; // Import untuk LoginPage
-
+import 'screens/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,14 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 0, 253, 42),
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      home: LoginPage(), // Aplikasi dimulai dari LoginPage
+      home: const LoginPage(), // mulai dari halaman login
     );
   }
 }

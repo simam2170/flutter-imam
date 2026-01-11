@@ -1,6 +1,6 @@
 # imamsu1
 
-A new Flutter project.
+Sebuah Project Flutter E Commerce Supermarket. Berikut link aplikasinya : https://drive.google.com/drive/folders/1uNOpCGefkhcTDYZ9aD4txbtBgF298U3M
 
 ## Getting Started
 
